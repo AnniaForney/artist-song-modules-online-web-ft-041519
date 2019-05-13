@@ -3,7 +3,8 @@ require_relative '../config/environment'
 class Song
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
-  include Paramable
+  include Paramable::ClassMethods
+  include Paramable::InstanceMethods
   attr_accessor :name
   attr_reader :artists
 
@@ -20,7 +21,7 @@ class Song
   def find_by_name(name)
     self.all.detect{|a| a.name == name}
   end
-  
+
   def artist=(artist)
     @artist = artist
   end

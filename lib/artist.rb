@@ -2,6 +2,7 @@ require 'pry'
 require_relative '../config/environment'
 class Artist
   extend Memorable::ClassMethods
+  extend Findable::ClassMethods
   include Memorable::InstanceMethods
   include Paramable
   @@artists = []
@@ -20,6 +21,10 @@ class Artist
 
   def self.all
     @@artists
+  end
+
+  def self.count
+    self.all.count
   end
 
 end
