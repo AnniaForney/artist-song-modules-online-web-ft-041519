@@ -20,8 +20,9 @@ class Artist
   end
 
   def song
+    @songs
     super
-  end 
+  end
 
   def self.all
     @@artists
