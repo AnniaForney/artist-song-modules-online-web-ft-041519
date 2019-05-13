@@ -22,7 +22,7 @@ class Artist
 
     def song
       @songs 
-    end 
+    end
 
   def self.all
     @@artists
