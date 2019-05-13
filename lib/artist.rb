@@ -20,6 +20,9 @@ class Artist
     song.artist = self
   end
 
+    def song
+      @songs 
+    end 
 
   def self.all
     @@artists
