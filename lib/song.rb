@@ -23,6 +23,7 @@ class Song
   end
 
   def songs
+    super 
     @songs 
   end
 
