@@ -22,7 +22,7 @@ class Song
     self.all.detect{|a| a.name == name}
   end
 
-  def songs 
+  def songs
   end 
 
   def artist=(artist)
