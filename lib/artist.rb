@@ -19,9 +19,6 @@ class Artist
     @songs << song
   end
 
-  def songs
-    @song
-  end 
 
   def self.all
     @@artists
