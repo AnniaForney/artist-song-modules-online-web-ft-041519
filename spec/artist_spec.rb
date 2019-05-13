@@ -55,6 +55,7 @@ describe Artist do
     end
 
     it "knows how many songs it has" do
+      binding.pry
       artist.add_songs([song, Song.new])
       expect(artist.songs.count).to eq(2)
     end
