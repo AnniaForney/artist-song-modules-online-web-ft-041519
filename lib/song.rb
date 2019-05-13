@@ -23,7 +23,8 @@ class Song
   end
 
   def songs
-  end 
+    @songs 
+  end
 
   def artist=(artist)
     @artist = artist
