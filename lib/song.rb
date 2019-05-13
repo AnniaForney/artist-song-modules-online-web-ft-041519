@@ -6,7 +6,7 @@ class Song < Artist
   include Memorable::InstanceMethods
   include Paramable
   attr_accessor :name
-  attr_reader :artists
+  attr_reader :artist 
 
   @@songs = []
 
