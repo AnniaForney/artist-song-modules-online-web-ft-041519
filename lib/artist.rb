@@ -21,6 +21,9 @@ class Artist
     song.artist = self
   end
 
+  def artist.add_songs(song)
+    
+  end 
   def self.all
     @@artists
   end
