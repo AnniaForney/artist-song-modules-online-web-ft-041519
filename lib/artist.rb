@@ -21,10 +21,6 @@ class Artist
     song.artist = self
   end
 
-  def add_songs(song)
-    songs.each do |song| add_songs 
-  end
-
   def self.all
     @@artists
   end
