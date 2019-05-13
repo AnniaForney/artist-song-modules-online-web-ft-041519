@@ -22,7 +22,8 @@ class Artist
   end
 
   def add_songs(song)
-    songs.each do |song| add_songs 
+    # [1, 2, 3].each { |n| puts "Current number is: #{n}" }
+    songs.each { |song| add_songs(song) }
   end
 
   def self.all
