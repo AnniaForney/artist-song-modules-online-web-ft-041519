@@ -12,7 +12,7 @@ class Artist
   attr_reader :songs
 
   def initialize
-    @@artists << self 
+    @@artists << self
     @songs = []
   end
 
