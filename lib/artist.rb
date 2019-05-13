@@ -13,7 +13,6 @@ class Artist
 
   def initialize
     @@artists << self
-    super 
     @songs = []
   end
 
@@ -23,7 +22,7 @@ class Artist
   end
 
   def add_songs(song)
-    songs.each do |song| add_song(song) 
+    songs.each do |song| add_song(song)
   end
 
   def self.all
