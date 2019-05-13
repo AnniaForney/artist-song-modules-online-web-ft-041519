@@ -16,11 +16,11 @@ class Artist
   end
 
   def add_song(song)
-    @songs << song 
+    @songs << song
   end
 
-  def songs 
-    @song 
+  def songs
+    @song
   end 
 
   def self.all
