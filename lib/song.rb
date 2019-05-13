@@ -23,7 +23,7 @@ class Song < Artist
   end
 
   def songs
-    super 
+    super
     @songs
   end
 
