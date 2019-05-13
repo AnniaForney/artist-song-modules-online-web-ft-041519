@@ -24,15 +24,11 @@ class Artist
   end
 
   def add_songs(song)
-    # [1, 2, 3].each { |n| puts "Current number is: #{n}" }
+  
     songs.each { |song| add_songs(song) }
   end
 
-  # [1, 2, 3].each { |n| puts "Current number is: #{n}" }
 
-  # [1, 2, 3].each do |n|
-  #   puts "Current number is: #{n}"
-  # end
 
   def self.all
     @@artists
