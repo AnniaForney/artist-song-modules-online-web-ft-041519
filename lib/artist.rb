@@ -1,6 +1,8 @@
 require 'pry'
 require_relative '../config/environment'
+
 class Artist
+  
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
   include Memorable::InstanceMethods
