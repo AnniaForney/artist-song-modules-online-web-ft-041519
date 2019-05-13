@@ -22,7 +22,7 @@ class Artist
   end
 
   def add_songs(song)
-    songs.each do |song| add_song
+    songs.each do |song| add_songs 
   end
 
   def self.all
