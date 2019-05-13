@@ -16,12 +16,7 @@ class Artist
   end
 
   def add_song(song)
-    add_song = song.each{|song| add_song(song)}
-  end
-
-  def song
-    super
-    @songs 
+    @songs << song 
   end
 
   def self.all
