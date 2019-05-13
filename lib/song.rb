@@ -24,7 +24,7 @@ class Song < Artist
 
 
   def artist=(artist)
-    @artist
+    @artist = artist 
   end
 
 end
