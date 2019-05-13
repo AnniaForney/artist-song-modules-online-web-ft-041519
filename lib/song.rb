@@ -22,10 +22,6 @@ class Song < Artist
     self.all.detect{|a| a.name == name}
   end
 
-  def songs
-    super
-    @songs
-  end
 
   def artist=(artist)
     @artists
