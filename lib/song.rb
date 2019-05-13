@@ -24,6 +24,7 @@ class Song < Artist
 
 
   def artist=(artist)
+    binding.pry
     @artist
   end
 
