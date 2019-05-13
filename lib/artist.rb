@@ -17,6 +17,7 @@ class Artist
   end
 
   def add_song(song)
+    super 
     @songs << song
     song.artist = self
   end
