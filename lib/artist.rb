@@ -12,7 +12,7 @@ class Artist
   attr_reader :songs
 
   def initialize
-    @@artists << self
+    @@artists << self 
     @songs = []
   end
 
@@ -25,6 +25,12 @@ class Artist
     # [1, 2, 3].each { |n| puts "Current number is: #{n}" }
     songs.each { |song| add_songs(song) }
   end
+
+  # [1, 2, 3].each { |n| puts "Current number is: #{n}" }
+
+  # [1, 2, 3].each do |n|
+  #   puts "Current number is: #{n}"
+  # end
 
   def self.all
     @@artists
