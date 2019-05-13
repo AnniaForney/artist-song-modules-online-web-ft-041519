@@ -24,7 +24,7 @@ class Song
 
   def songs
     super 
-    @songs 
+    @songs
   end
 
   def artist=(artist)
